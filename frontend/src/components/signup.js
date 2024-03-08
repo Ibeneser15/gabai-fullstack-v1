@@ -4,6 +4,8 @@ import { regions, provinces, cities, barangays } from 'select-philippines-addres
 import { useSignup } from "../hooks/useSignup";
 import Popup from "reactjs-popup";
 import { IoIosCloseCircleOutline } from "react-icons/io";
+import { Progress } from "@/components/ui/progress"
+
 
 const Signup = ( {initialAddress }) => {
 
@@ -185,6 +187,8 @@ const Signup = ( {initialAddress }) => {
               
               
                     <b className="flex flex-col items-center justify-center text-xl">Personal Information 1/3</b>
+                    <Progress value={35} />
+
                     <label htmlFor="firstname">First Name</label>
                     <input
                       type="text"
