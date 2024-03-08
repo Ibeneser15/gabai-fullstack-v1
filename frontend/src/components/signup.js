@@ -273,7 +273,8 @@ const Signup = ( {initialAddress }) => {
                     <br/>
                     {/* Next button */}
                     
-                    <button type="button" className="w-full bg-azure-500 text-white font-bold rounded-xl p-2 "onClick={nextStep}>Next</button>
+                    <button type="button" className="bg-azure-500 text-white rounded-xl p-2 " onClick={nextStep}>Next</button>
+
                   </div>
                   </div>
                   </div>
